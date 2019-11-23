@@ -6,5 +6,5 @@ option java_multiple_files = false;
 import "actions/GetScore.proto";
 
 service TutorialActionService {
-    rpc GetScore (actions.getScoreRequest) returns (actions.GetScoreResponse);
+    rpc GetScore (actions.GetScoreResponse) returns (actions.GetScoreResponse);
 }
